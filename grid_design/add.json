@@ -1,0 +1,199 @@
+{
+  "profiles":{
+      "portfolio_id":"1",
+      "portfolio_name":"Uma portfolio",
+      "last_saved":"03/08/2016",
+      "created":"12/12/2015",
+      "sections":[{
+            "section_id":"EDUCATION_SECTION",
+            "section_directive_name":"education-section",
+            "display_name":"EDUCATION SECTION",
+            "order":"1",
+            "placeholders": [
+              {
+                "placeholderId": "placeholder-a",
+                "width": 100,
+                "chickletRowSize": 1,
+                "chickletCount": 1,
+                "chickletWidth":50
+              }
+            ],
+            "chicklets":[{
+                        "chickletid":"QUALIFICATION",
+                        "chicklet-directive-name": "q-card",
+                        "placeholderId": "placeholder-a",
+                        "order-in-placeholder":"1",
+                        "chicklet-data": {
+                          "levels":{
+                            "displayname":"Level",
+                            "value":"UG"
+                          },
+                          "streams":{
+                              "displayname":"Stream",
+                              "value":"Engineering"
+                          },
+                          "qualificationname":{
+                              "displayname":"Qualification Name",
+                              "value":"B.Tech"
+                          },
+                          "qualificationdate":{
+                            "displayname":"Qualification Date",
+                            "value":"27/04/2012"
+                          },
+                          "fromwhere":{
+                            "displayname":"From Where",
+                            "value":"Anna University - chennai"
+                          }
+                        }
+                      },
+                      {
+                                  "chickletid":"PROFILE_DATA",
+                                  "chicklet-directive-name": "personal-info",
+                                  "placeholderId": "placeholder-a",
+                                  "order-in-placeholder":"1",
+                                  "chicklet-data": {
+                                      "image":{
+                                        "displayname":"Profile Pic",
+                                        "value":"https://static.pexels.com/photos/479/landscape-nature-sunset-trees.jpg"
+                                      },
+                                      "name":{
+                                        "displayname":"Name",
+                                        "value":"Uma_pk"
+                                      },
+                                      "designation":{
+                                        "displayname":"Designation",
+                                        "value":"Software Engineer"
+                                      },
+                                      "organization":{
+                                        "displayname":"Organization",
+                                        "value":"Cognizant"
+                                      },
+                                      "current_location":{
+                                        "displayname":"Current-Location",
+                                        "value":"Chennai"
+                                      },
+                                      "sex":{
+                                        "displayname":"Gender",
+                                        "value":"Female"
+                                      },
+                                      "age":{
+                                        "displayname":"Age",
+                                        "value":"22"
+                                      },
+                                      "date_of_birth":{
+                                        "displayname":"Date Of Birth",
+                                        "value":"08/07/1995"
+                                      }
+                                  }
+                                },
+                                {
+                                            "chickletid":"PROFILE_DATA",
+                                            "chicklet-directive-name": "personal-info",
+                                            "placeholderId": "placeholder-a",
+                                            "order-in-placeholder":"1",
+                                            "chicklet-data": {
+                                                "image":{
+                                                  "displayname":"Profile Pic",
+                                                  "value":"https://static.pexels.com/photos/479/landscape-nature-sunset-trees.jpg"
+                                                },
+                                                "name":{
+                                                  "displayname":"Name",
+                                                  "value":"Uma_pk"
+                                                },
+                                                "designation":{
+                                                  "displayname":"Designation",
+                                                  "value":"Software Engineer"
+                                                },
+                                                "organization":{
+                                                  "displayname":"Organization",
+                                                  "value":"Cognizant"
+                                                },
+                                                "current_location":{
+                                                  "displayname":"Current-Location",
+                                                  "value":"Chennai"
+                                                },
+                                                "sex":{
+                                                  "displayname":"Gender",
+                                                  "value":"Female"
+                                                },
+                                                "age":{
+                                                  "displayname":"Age",
+                                                  "value":"22"
+                                                },
+                                                "date_of_birth":{
+                                                  "displayname":"Date Of Birth",
+                                                  "value":"08/07/1995"
+                                                }
+                                            }
+                                          },
+                      {
+                          "chickletid":"CONTACT_INFORMATION",
+                          "chicklet-directive-name": "contact-info",
+                          "placeholderId": "placeholder-b",
+                          "order-in-placeholder":"3",
+                          "chicklet-data": {
+                                "email":{
+                                  "displayname":"E-mail Address",
+                                  "value":["umapk@gmail.com","uma@cognizant.com"]
+                                        },
+                                  "phones":{
+                                      "displayname":"Phone Number",
+                                      "value":["9876543210","9655814767"]
+                                              },
+                                      "address":[{
+                                            "displayname":"Permanent Address",
+                                            "value":"123/kuppusamy street, madurai-15."
+                                              },
+                                            {
+                                            "displayname":"Current Address",
+                                            "value":"3/2/49A,shollinganalur,chennai"
+                                            }],
+                                        "linkedin":{
+                                              "displayname":"Linked In",
+                                              "value":"www.linkedin.com"
+                                            },
+                                          "facebook":{
+                                              "displayname":"Facebook",
+                                              "value":"www.facebook.com"
+                                            },
+                                          "github":{
+                                              "displayname":"GitHub",
+                                              "value":"www.github.com"
+                                              }
+                                            }
+                                          },
+                                          {
+                          "chickletid":"OTHER_PERSONEL_DATA",
+                          "chicklet-directive-name": "other-info",
+                          "placeholderId": "placeholder-c",
+                          "order-in-placeholder":"4",
+                          "chicklet-data": {
+                            "blood_group":{
+                              "displayname":"Blood Group",
+                              "value":"o+ve"
+                            },
+                            "marital_status":{
+                              "displayname":"Marital Status",
+                              "value":"Single"
+                            },
+                            "nationality":{
+                              "displayname":"Nationality",
+                              "value":"Indian"
+                            }
+                          }
+                        },
+                        {
+                          "chickletid":"SUMMARY",
+                          "chicklet-directive-name": "summary-info",
+                          "placeholderId": "placeholder-d",
+                          "order-in-placeholder":"2",
+                          "chicklet-data": {
+                            "snapshot":{
+                              "displayname":"Snapshot",
+                              "value":"I am a dedicated person. I enjoy reading, and the knowledge and perspective that my reading gives me has strengthened my presentation abilities. I have been successful at presentations, and I attribute this to my ability of learning. It will help me where there are many different personalities and learning styles."
+                            }
+                          }
+                        }]
+                                        }]
+                                      }
+                                    }

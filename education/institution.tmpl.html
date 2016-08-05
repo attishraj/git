@@ -1,0 +1,47 @@
+<div ng-controller="DemoCtrl">
+   <md-card layout-gt-sm="column" layout-padding flex="50" layout-align="space-around center">
+     <md-title>
+       <md-title-text>
+         <span class="md-headline">INSTITUTION</span>
+       </md-title-text>
+    </md-title>
+      <div flex="30">
+         <md-input-container>
+            <label>Name of the Institution</label>
+            <input type="text">
+         </md-input-container>
+         <md-input-container>
+            <label>Type</label>
+            <md-select ng-model="type">
+               <md-option ng-repeat="type in types">{{type}}</md-option>
+            </md-select>
+         </md-input-container>
+         &nbsp;&nbsp;&nbsp;
+         </div>
+         <div>
+         <md-datepicker ng-model="from_when" md-placeholder="From"></md-datepicker>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <md-datepicker ng-model="to_when" md-placeholder="To"></md-datepicker>
+       </div>
+      <div>
+         <md-input-container>
+            <label>Special Achievements</label>
+            <input type="text">
+         </md-input-container>&nbsp;&nbsp;&nbsp;
+         <md-input-container>
+            <label>Group Membership</label>
+            <input type="text">
+         </md-input-container>
+        </div>
+        <div>
+           <md-input-container>
+            <label>Batch Of:Year-Of Graduation </label>
+            <input type="year">
+         </md-input-container>   &nbsp;&nbsp;&nbsp;
+         <md-input-container>
+            <label>Result Achieved </label>
+            <input type="text">
+         </md-input-container>
+      </div>
+   </md-card>
+</div>

@@ -1,0 +1,40 @@
+
+<div ng-controller="DemoCtrl">
+<md-card layout-gt-sm="column" layout-padding flex="50" layout-align="space-around center" >
+  <md-title>
+    <md-title-text>
+      <span class="md-headline">QUALIFICATION</span>
+    </md-title-text>
+ </md-title>
+   <div>
+     <md-input-container>
+        <label>Level</label>
+        <md-select ng-model="level">
+        <md-option ng-repeat="level in levels">{{level}}</md-option>
+        </md-select>
+      </md-input-container>
+        &nbsp;&nbsp;&nbsp;
+         <md-input-container style="margin-right: 10px;">
+        <label>Stream</label>
+        <md-select ng-model="stream">
+        <md-option ng-repeat="stream in streams">{{stream}}</md-option>
+        </md-select>
+        </md-input-container>
+        &nbsp;&nbsp;&nbsp;
+    </div>
+    <div>
+      <md-input-container>
+         <label>QualificationName</label>
+         <input type="text">
+      </md-input-container>
+      <div>
+      <md-datepicker ng-model="qualification_date" md-placeholder="date"></md-datepicker>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </div>
+      <md-input-container>
+         <label>Where</label>
+         <input type="location">
+      </md-input-container>
+   </div>
+</md-card>
+</div>

@@ -1,0 +1,582 @@
+{
+  "profile":
+  [{
+      "Aboutme": {
+              "image":{
+                "displayname":"Profile Pic",
+                "value":"https://static.pexels.com/photos/479/landscape-nature-sunset-trees.jpg"
+              },
+              "name":{
+                "displayname":"Name",
+                "value":"Uma_pk"
+              },
+              "designation":{
+                "displayname":"Designation",
+                "value":"Software Engineer"
+              },
+              "organization":{
+                "displayname":"Organization",
+                "value":"Cognizant"
+              },
+              "current_location":{
+                "displayname":"Current-Location",
+                "value":"Chennai"
+              },
+              "sex":{
+                "displayname":"Gender",
+                "value":"Female"
+              },
+              "age":{
+                "displayname":"Age",
+                "value":"22"
+              },
+              "date_of_birth":{
+                "displayname":"Date Of Birth",
+                "value":"08/07/1995"
+              },
+          "summary":{
+              "snapshot":{
+                "displayname":"Snapshot",
+                "value":"Text"
+              }
+            },
+          "contact_information":{
+              "email":{
+                "displayname":"E-mail Address",
+                "value":["umapk@gmail.com",
+                          "uma@cognizant.com"]
+              },
+              "phones":{
+                "displayname":"Phone Number",
+                "value":["9876543210",
+                         "9655814767"]
+              },
+              "address":[{
+                "displayname":"Permanent Address",
+                "value":"123/kuppusamy street, madurai-15."
+              },
+              {
+                "displayname":"Current Address",
+                "value":"3/2/49A,shollinganalur,chennai"
+              }],
+              "linkedin":{
+                "displayname":"Linked In",
+                "value":"www.linkedin.com"
+              },
+              "facebook":{
+                "displayname":"Facebook",
+                "value":"www.facebook.com"
+              },
+              "github":{
+                "displayname":"GitHub",
+                "value":"www.github.com"
+              }
+          },
+          "other_personal_data":{
+              "blood_group":{
+                "displayname":"Blood Group",
+                "value":"o+ve"
+              },
+              "marital_status":{
+                "displayname":"Marital Status",
+                "value":"Single"
+              },
+              "nationality":{
+                "displayname":"Nationality",
+                "value":"Indian"
+              }
+          }
+      },
+      "Location":{
+          "current":{
+              "place":{
+                "displayname":"Current Place",
+                "value":"Chennai"
+              },
+              "country":{
+                "displayname":"Country",
+                "value":"India"
+              },
+              "from_when":{
+                "displayname":"From When",
+                "value":"08/07/2010"
+              },
+              "activity":{
+                "displayname":"Activity",
+                "value":"Work"
+              }
+          },
+          "past":{
+            "place":{
+              "displayname":"Past Place",
+              "value":"Madurai"
+            },
+            "country":{
+              "displayname":"Country",
+              "value":"India"
+            },
+            "from_when":{
+              "displayname":"From When",
+              "value":"08/07/2010"
+            },
+            "to_when":{
+              "displayname":"To When",
+              "value":"08/10/2012"
+            },
+            "activity":{
+              "displayname":"Activity",
+              "value":"Work"
+            }
+          }
+      },
+      "Education":{
+          "summary":[{
+            "education_summary":{
+              "displayname":"Education Summary",
+              "value":"Text"
+            }
+          }],
+          "qualification":[{
+            "level":{
+              "displayname":"Level",
+              "value":"UG"
+            },
+            "stream":{
+                "displayname":"Stream",
+                "value":"Engineering"
+            },
+            "qualification_name":{
+                "displayname":"Qualification Name",
+                "value":"B.Tech"
+            },
+            "qualification_date":{
+              "displayname":"Qualification Date",
+              "value":"27/04/2012"
+            },
+            "from_where":{
+              "displayname":"From Where",
+              "value":"Anna University - chennai"
+            }
+          },
+          {
+            "level":{
+              "displayname":"Level",
+              "value":"PG"
+            },
+            "stream":{
+                "displayname":"Stream",
+                "value":"Engineering"
+            },
+            "qualification_name":{
+                "displayname":"Qualification Name",
+                "value":"M.Tech"
+            },
+            "qualification_date":{
+              "displayname":"Qualification Date",
+              "value":"27/04/2014"
+            },
+            "from_where":{
+              "displayname":"From Where",
+              "value":"Anna University - chennai"
+            }
+          }
+        ],
+        "institution":{
+            "name":{
+              "displayname":"Institution Name",
+              "value":"Mepco Schelenk Engineering College"
+            },
+            "Type":{
+              "displayname":"Type",
+              "value":"UG"
+            },
+            "from_when":{
+              "displayname":"From When",
+              "value":"27/4/2010"
+            },
+            "to_where":{
+                "displayname":"to where",
+                "value":"03/08/2014"
+            },
+            "special_achievements":{
+              "displayname":"Special Achievements",
+              "value":"Outgoing student ...."
+            },
+            "group_memberships":{
+              "displayname":"Group Memberships",
+              "value":"Android Club ...."
+            },
+            "batch_of":{
+              "displayname":"Batch Of",
+              "value":"2012"
+            },
+            "results_achieved":{
+              "displayname":"Results Achieved",
+              "value":"Rank holder ....."
+            }
+        }
+      },
+      "professional_experience":{
+        "summary":{
+            "work-experience":{
+                "displayname":"Work Experience",
+                "value":"Text ....."
+            }
+        },
+        "roles_played":[{
+            "organization":{
+                "displayname":"Organization",
+                "value":"Amazon"
+            },
+            "organization_logo":{
+                "displayname":"Organization Logo",
+                "value":"img-path ...."
+            },
+            "organization_type":{
+                "displayname":"Organization Type",
+                "value":"MNC"
+            },
+            "loaction":{
+                "displayname":"Location",
+                "value":"Chennai"
+            },
+            "from_when":{
+                "displayname":"From When",
+                "value":"2010"
+            },
+            "to_when":{
+                "displayname":"To When",
+                "value":"2014"
+            },
+            "designation":{
+                "displayname":"Designation",
+                "value":"Programmer Analyst"
+            },
+            "role":{
+                "displayname":"Role Played",
+                "value":"Manager"
+            },
+            "description":{
+                "displayname":"Description",
+                "value":"Text ...."
+            },
+            "scale":{
+                "displayname":"Scale",
+                "value":"String ..."
+            },
+            "level":{
+                "displayname":"Level",
+                "value":"String ..."
+            }
+        },
+        {
+            "organization":{
+                "displayname":"Organization",
+                "value":"Google"
+            },
+            "organization_logo":{
+                "displayname":"Organization Logo",
+                "value":"img-path ...."
+            },
+            "organization_type":{
+                "displayname":"Organization Type",
+                "value":"MNC"
+            },
+            "loaction":{
+                "displayname":"Location",
+                "value":"Chennai"
+            },
+            "from_when":{
+                "displayname":"From When",
+                "value":"2010"
+            },
+            "to_when":{
+                "displayname":"To When",
+                "value":"2014"
+            },
+            "designation":{
+                "displayname":"Designation",
+                "value":"Business Unit"
+            },
+            "role":{
+                "displayname":"Role Played",
+                "value":"Project Leader"
+            },
+            "description":{
+                "displayname":"Description",
+                "value":"Text ...."
+            },
+            "scale":{
+                "displayname":"Scale",
+                "value":"String ..."
+            },
+            "level":{
+                "displayname":"Level",
+                "value":"Managerial Level"
+            }
+        }]
+      },
+      "projects":[{
+            "Name":{
+                "dispalyName":"Name of project",
+                "value":"NOC Research"
+            },
+            "from_when":{
+                "dispalyName":"From When",
+                "value":"1/3/2015"
+            },
+            "till_when":{
+                "displayName":"Till When",
+                "value":"4/3/2016"
+            },
+            "for_whome":{
+                "displayName":"For Whome",
+                "value":"Cognizant"
+             },
+             "done_at":{
+                 "dispalyName":"Done At",
+                 "value":"Cognizant"
+             },
+             "done_at_location":{
+                 "displayName":"Done At Location",
+                 "value":"Chennai"
+             },
+             "size_of_project":{
+                 "displayName":"number of members in project",
+                 "value":"five"
+             },
+             "tech_skills_used":{
+                 "displayName":"Technical Skills Used",
+                 "value":["MatLab", "PLD", "Ubuntu"]
+             },
+             "role":{
+                 "displayName":"Role You played",
+                 "value":"Programmer Analist "
+             },
+             "status":{
+                 "displayName":"Status Of project",
+                 "value":"Released"
+             },
+             "demo_url":{
+                 "displayName":"Demo URL",
+                 "value":"https://www.linkedin.com/in/akhila-seetiraju-91826965?trk=hp-identity-name"
+             },
+             "source_url":{
+                 "displayName":"Source URL",
+                 "value":"https://www.linkedin.com/in/akhila-seetiraju-91826965?trk=hp-identity-name"
+             },
+             "synopsis":{
+                 "displayName":"Synopsis",
+                 "value":"https://www.linkedin.com/in/akhila-seetiraju-91826965?trk=hp-identity-name"
+             }
+      }],
+      "Skills":[{
+            "name":{
+                "displayName":"Skills",
+                "value":"human resource management"
+            },
+            "level": {
+                "displayName":"level of Skill",
+                "value":"medium"
+            },
+            "time_spent_on_it":{
+                "displayName":"time spent on Skill",
+                "value":"2 years"
+            },
+            "usage" :{
+                "displayName":"future usage of Skill",
+                "value":" text - don’t know what this is for now"
+            }
+      },
+      {
+            "name":{
+                "displayName":"Skills",
+                "value":"Leadership"
+            },
+            "level": {
+                "displayName":"level of Skill",
+                "value":"Excellent"
+            },
+            "time_spent_on_it":{
+                "displayName":"time spent on Skill",
+                "value":"4 years"
+            },
+            "usage" :{
+                "displayName":"future usage of Skill",
+                "value":" text - don’t know what this is for now"
+            }
+      }],
+      "Endrosments":{
+              "endorser_name":{
+                "displayName" : "Name",
+                "value" : "Ross Mathew"
+              },
+              "designation":{
+                "displayName" : "Designation",
+                "value" : "Head of Engagement digital Practice"
+             },
+             "when":{
+                "displayName" : "date",
+                "value" : "11/08/2015"
+             },
+             "who":{
+                "displayName" : "Who endrosed you?",
+                "value" : "manager"
+             },
+             "summary":{
+                "displayName" : "Brief information",
+                "value" : ".."
+             },
+             "skill_area":{
+                "displayName" : "skills",
+                "value" : ["AngularJs","Bootstrap"]
+             }
+      },
+      "Accomplishments_and_interests":{
+        "activities":{
+            "type":{
+              "displayName" : "Type of activity",
+              "value" : ["co-curricular","volunteering"]
+            },
+            "participation":{
+              "displayName" : "Participation",
+              "value" : "Dancing"
+            },
+            "from_when":{
+              "displayName" : "Starting date",
+              "value" : "20/10/2015"
+            },
+            "to_when":{
+              "displayName" : "ending date",
+              "value" : "20/11/2015"
+            },
+            "where":{
+              "displayName" : "Place",
+              "value" : "Mumbai"
+            },
+            "organization":{
+              "displayName" : "Organiznation",
+              "value" : "Reach-Out"
+            },
+            "summary":{
+              "displayName" : "Brief information",
+              "value" : "Volunterred for educationg students in slums"
+            }
+        },
+        "hobbies":{
+              "displayName" : "Hobbies or Interests",
+              "value" : ["Poetry" , "Designing" , "Dancing"]
+        },
+        "publications":{
+            "type":{
+              "displayName" : "Type of Publication",
+              "value" : "Journal"
+            },
+            "url":{
+              "displayName" : "Url of publication",
+              "value" : "https://en.wikipedia.org/wiki/Journal"
+            },
+            "when":{
+              "displayName" : "ending date",
+              "value" : "02/11/2015"
+            },
+            "summary":{
+              "displayName" : "Brief information",
+              "value" : "Journal on fundamentals of mathematics"
+            }
+        },
+        "conference_participation":{
+            "conference_name":{
+              "displayName" : "Attended Conference",
+              "value" : "Big Data"
+            },
+            "location":{
+              "displayName" : "place",
+              "value" : "Hyderabad"
+            },
+            "when":{
+              "displayName" : "date",
+              "value" : "02/08/2015"
+            },
+            "type":{
+              "displayName" : "technical",
+              "value" : "Big Data"
+            },
+            "topic":{
+              "displayName" : "Topic of the conference",
+              "value" : "Big data analysis"
+            }
+        },
+        "special_achievements":[{
+            "achievements_name":{
+                "displayname":"Achievements Name",
+                "value":"Employee of the year"
+            },
+            "when":{
+                "displayname":"When",
+                "value":"2016"
+            },
+            "where":{
+                "displayname":"Where",
+                "value":"Cognizant"
+            }
+        },
+        {
+            "achievements_name":{
+                "displayname":"Achievements Name",
+                "value":"Best NCC"
+            },
+            "when":{
+                "displayname":"When",
+                "value":"2009"
+            },
+            "where":{
+                "displayname":"Where",
+                "value":"S.K.N.V school"
+            }
+        }]
+    },
+    "Network_Of_People":{
+        "followed":[{
+            "name":{
+                "displayName":"Names of people followed you",
+                "value":"Raj"
+            },
+            "from_when_date": {
+                "displayName":"From when",
+                "value": "20/10/2015"
+            }
+        },
+        {
+            "name":{
+                "displayName":"Names of people followed you",
+                "value":"Arun"
+            },
+            "from_when_date": {
+                "displayName":"From when",
+                "value": "20/01/2017"
+            }
+        }],
+        "following":[{
+            "name": {
+                "displayName":"Names of people you are following",
+                "value":"Satish"
+             },
+             "from_when_date": {
+                "displayName":"from When",
+                "value":"17/06/2016"
+             }
+        },
+        {
+            "name": {
+                "displayName":"Names of people you are following",
+                "value":"Nishant"
+             },
+             "from_when_date": {
+                "displayName":"from When",
+                "value":"17/04/2018"
+             }
+        }]
+    }
+  }]
+}

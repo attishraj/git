@@ -1,0 +1,38 @@
+<div ng-controller="DemoCtrl" ng-cloak>
+        <md-card md-row-height="fit">
+          <div layout="row" flex layout-gt-xs="column" layout-gt-sm="row" layout-xs="column" >
+            <div layout="column" class="profile-img"layout-gt-xs="row" >
+              <img class="md-media-sm" ng-src="http://forwallpapers.com/wp-content/uploads/2013/10/Graphic-Cool-Design-Wallpaper-PC-1024x819.jpg">
+            </div>
+            <div layout="column" flex>
+              <md-input-container class="md-block" flex>
+               <label>{{chickletData.name.displayname}}</label>
+               <input value="{{chickletData.name.value}}">
+             </md-input-container>
+             <md-input-container class="md-block" flex>
+               <label>{{chickletData.designation.displayname}}</label>
+               <input value="{{chickletData.designation.value}}">
+             </md-input-container>
+            </div>
+            <div layout="column" flex>
+              <md-input-container class="md-block" flex>
+                <label>{{chickletData.current_location.displayname}}</label>
+                <input value="{{chickletData.current_location.value}}">
+              </md-input-container>
+              <md-input-container class="md-block" flex>
+                <label>{{chickletData.sex.displayname}}</label>
+                <input value="{{chickletData.sex.value}}">
+              </md-input-container>
+            </div>
+            <div layout="column" flex>
+              <!-- <div class="datepicker-fix">
+                <md-datepicker ng-model=""></md-datepicker>
+              </div> -->
+              <md-input-container class="md-block" flex>
+                <label>{{chickletData.organization.displayname}}</label>
+                <input value="{{chickletData.organization.value}}">
+              </md-input-container>
+            </div>
+          </div>
+      </md-card>
+  </div>

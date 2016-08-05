@@ -1,0 +1,20 @@
+<div ng-controller="DemoCtrl" ng-cloak>
+        <md-card >
+          <md-card-content>
+            <div layout="row" layout-xs="column" layout-sm="column">
+              <md-input-container class="md-block" flex>
+                <label>{{chickletData.blood_group.displayname}}</label>
+                <input value="{{chickletData.blood_group.value}}">
+               </md-input-container>
+               <md-input-container class="md-block" flex>
+                 <label>{{chickletData.marital_status.displayname}}</label>
+                 <input value="{{chickletData.marital_status.value}}">
+               </md-input-container>
+                <md-input-container class="md-block" flex>
+                  <label>{{chickletData.nationality.displayname}}</label>
+                  <input value="{{chickletData.nationality.value}}">
+                </md-input-container>
+            </div>
+        </md-card-content>
+        </md-card>
+      </div>

@@ -1,0 +1,40 @@
+<div ng-controller="DemoCtrl" ng-cloak>
+  <md-card layout-padding>
+      <div layout="column"><br>
+        <md-card-subtitle>Contact Details</md-card-subtitle>
+      <div layout="row" layout-xs="column" layout-sm="column">
+      <md-input-container class="md-block" flex>
+        <label>{{chickletData.email.displayname}}</label>
+        <input value="{{chickletData.email.value}}">
+      </md-input-container>
+      <md-input-container class="md-block" flex>
+        <label>{{chickletData.phones.displayname}}</label>
+        <input value="{{chickletData.phones.value}}">
+      </md-input-container>
+      <md-input-container class="md-block" flex>
+        <label>{{chickletData.address.displayname}}</label>
+        <input value="{{chickletData.address.value}}">
+      </md-input-container>
+    </div>
+      <div layout="row">
+      <md-input-container class="md-block" flex>
+        <label>{{chickletData.linkedin.displayname}}</label>
+        <input value="{{chickletData.linkedin.value}}">
+      </md-input-container>
+    </div>
+    <div layout="row">
+      <md-input-container class="md-block" flex>
+        <label>{{chickletData.facebook.displayname}}</label>
+        <input value="{{chickletData.facebook.value}}">
+      </md-input-container>
+    </div>
+    <div layout="row">
+      <md-input-container class="md-block" flex>
+        <label>{{chickletData.github.displayname}}</label>
+        <input value="{{chickletData.github.value}}">
+      </md-input-container>
+    </div>
+  </div>
+  </div>
+</md-card>
+</div>

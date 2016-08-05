@@ -1,0 +1,42 @@
+<div ng-controller="mainCtrl">
+<md-card md-row-height="fit" flex>
+<div>
+<!-- layout="row" flex layout-gt-xs="column" layout-gt-sm="row" layout-xs="column" > -->
+  <!-- <md-title>
+    <md-title-text>
+      <span class="md-headline">QUALIFICATION</span>
+    </md-title-text>
+ </md-title> -->
+   <div>
+     <md-input-container>
+        <label>{{chickletData.levels.displayname}}</label>
+        <md-select ng-model="level">
+        <md-option ng-repeat="level in levels">{{level}}</md-option>
+        </md-select>
+      </md-input-container>
+        &nbsp;&nbsp;&nbsp;
+         <md-input-container>
+        <label>{{chickletData.streams.displayname}}</label>
+        <md-select ng-model="stream">
+        <md-option ng-repeat="stream in streams">{{stream}}</md-option>
+        </md-select>
+        </md-input-container>
+        &nbsp;&nbsp;&nbsp;
+    </div>
+    <div>
+      <md-input-container>
+         <label>{{chickletData.qualificationname.displayname}}</label>
+         <input value="{{chickletData.qualificationname.value}}">
+      </md-input-container>
+      <div>
+      <md-datepicker ng-model="qualification_date" md-placeholder="{{chickletData.qualificationdate.displayname}}"></md-datepicker>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     </div>
+      <md-input-container>
+        <label>{{chickletData.fromwhere.displayname}}</label>
+        <input value="{{chickletData.fromwhere.value}}">
+      </md-input-container>
+   </div>
+</md-card>
+</div>
+</div>
